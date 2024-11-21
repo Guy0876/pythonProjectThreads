@@ -91,6 +91,4 @@ time.sleep(20)
 distances_copy = distances[:]
 max_distance = max(distances_copy)
 winner_index = distances_copy.index(max_distance)
-print(" the runner that ran the furthest distance is runner: ")
-print(winner_index)
-print()
+print(f"The runner with index {winner_index} covered the largest distance: {max_distance} meters.")
